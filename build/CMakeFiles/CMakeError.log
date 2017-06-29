@@ -1,0 +1,454 @@
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e181/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0e181.dir/build.make CMakeFiles/cmTC_0e181.dir/build
+Building C object CMakeFiles/cmTC_0e181.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp=libomp   -o CMakeFiles/cmTC_0e181.dir/src.c.o   -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_0e181.dir/src.c.o] Error 1
+make: *** [cmTC_0e181/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c74eb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c74eb.dir/build.make CMakeFiles/cmTC_c74eb.dir/build
+Building C object CMakeFiles/cmTC_c74eb.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_c74eb.dir/src.c.o   -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.c
+/Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c74eb.dir/src.c.o] Error 1
+make: *** [cmTC_c74eb/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7cf10/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7cf10.dir/build.make CMakeFiles/cmTC_7cf10.dir/build
+Building C object CMakeFiles/cmTC_7cf10.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_7cf10.dir/src.c.o   -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_7cf10.dir/src.c.o] Error 1
+make: *** [cmTC_7cf10/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4047/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e4047.dir/build.make CMakeFiles/cmTC_e4047.dir/build
+Building C object CMakeFiles/cmTC_e4047.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_e4047.dir/src.c.o   -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/openmp'
+make[1]: *** [CMakeFiles/cmTC_e4047.dir/src.c.o] Error 1
+make: *** [cmTC_e4047/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f7d2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0f7d2.dir/build.make CMakeFiles/cmTC_0f7d2.dir/build
+Building C object CMakeFiles/cmTC_0f7d2.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_0f7d2.dir/src.c.o   -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTC_0f7d2.dir/src.c.o] Error 1
+make: *** [cmTC_0f7d2/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6fce0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6fce0.dir/build.make CMakeFiles/cmTC_6fce0.dir/build
+Building C object CMakeFiles/cmTC_6fce0.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_6fce0.dir/src.c.o   -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.c
+/Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6fce0.dir/src.c.o] Error 1
+make: *** [cmTC_6fce0/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79ddf/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_79ddf.dir/build.make CMakeFiles/cmTC_79ddf.dir/build
+Building C object CMakeFiles/cmTC_79ddf.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_79ddf.dir/src.c.o   -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.c
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.c: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_79ddf.dir/src.c.o] Error 1
+make: *** [cmTC_79ddf/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55cc2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_55cc2.dir/build.make CMakeFiles/cmTC_55cc2.dir/build
+Building C object CMakeFiles/cmTC_55cc2.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_55cc2.dir/src.c.o   -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '+Oopenmp'
+make[1]: *** [CMakeFiles/cmTC_55cc2.dir/src.c.o] Error 1
+make: *** [cmTC_55cc2/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c713c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c713c.dir/build.make CMakeFiles/cmTC_c713c.dir/build
+Building C object CMakeFiles/cmTC_c713c.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_c713c.dir/src.c.o   -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-qsmp'
+make[1]: *** [CMakeFiles/cmTC_c713c.dir/src.c.o] Error 1
+make: *** [cmTC_c713c/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43b2e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_43b2e.dir/build.make CMakeFiles/cmTC_43b2e.dir/build
+Building C object CMakeFiles/cmTC_43b2e.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_43b2e.dir/src.c.o   -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mp'
+make[1]: *** [CMakeFiles/cmTC_43b2e.dir/src.c.o] Error 1
+make: *** [cmTC_43b2e/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8f0b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f8f0b.dir/build.make CMakeFiles/cmTC_f8f0b.dir/build
+Building CXX object CMakeFiles/cmTC_f8f0b.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp=libomp   -o CMakeFiles/cmTC_f8f0b.dir/src.cxx.o -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_f8f0b.dir/src.cxx.o] Error 1
+make: *** [cmTC_f8f0b/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_29078/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_29078.dir/build.make CMakeFiles/cmTC_29078.dir/build
+Building CXX object CMakeFiles/cmTC_29078.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_29078.dir/src.cxx.o -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_29078.dir/src.cxx.o] Error 1
+make: *** [cmTC_29078/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f7ca/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7f7ca.dir/build.make CMakeFiles/cmTC_7f7ca.dir/build
+Building CXX object CMakeFiles/cmTC_7f7ca.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_7f7ca.dir/src.cxx.o -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_7f7ca.dir/src.cxx.o] Error 1
+make: *** [cmTC_7f7ca/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2eaf1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2eaf1.dir/build.make CMakeFiles/cmTC_2eaf1.dir/build
+Building CXX object CMakeFiles/cmTC_2eaf1.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_2eaf1.dir/src.cxx.o -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/openmp'
+make[1]: *** [CMakeFiles/cmTC_2eaf1.dir/src.cxx.o] Error 1
+make: *** [cmTC_2eaf1/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43a52/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_43a52.dir/build.make CMakeFiles/cmTC_43a52.dir/build
+Building CXX object CMakeFiles/cmTC_43a52.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_43a52.dir/src.cxx.o -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTC_43a52.dir/src.cxx.o] Error 1
+make: *** [cmTC_43a52/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb950/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_eb950.dir/build.make CMakeFiles/cmTC_eb950.dir/build
+Building CXX object CMakeFiles/cmTC_eb950.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_eb950.dir/src.cxx.o -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_eb950.dir/src.cxx.o] Error 1
+make: *** [cmTC_eb950/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d567/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1d567.dir/build.make CMakeFiles/cmTC_1d567.dir/build
+Building CXX object CMakeFiles/cmTC_1d567.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_1d567.dir/src.cxx.o -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_1d567.dir/src.cxx.o] Error 1
+make: *** [cmTC_1d567/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb823/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bb823.dir/build.make CMakeFiles/cmTC_bb823.dir/build
+Building CXX object CMakeFiles/cmTC_bb823.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_bb823.dir/src.cxx.o -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '+Oopenmp'
+make[1]: *** [CMakeFiles/cmTC_bb823.dir/src.cxx.o] Error 1
+make: *** [cmTC_bb823/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a127d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a127d.dir/build.make CMakeFiles/cmTC_a127d.dir/build
+Building CXX object CMakeFiles/cmTC_a127d.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_a127d.dir/src.cxx.o -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-qsmp'
+make[1]: *** [CMakeFiles/cmTC_a127d.dir/src.cxx.o] Error 1
+make: *** [cmTC_a127d/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f52c5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f52c5.dir/build.make CMakeFiles/cmTC_f52c5.dir/build
+Building CXX object CMakeFiles/cmTC_f52c5.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_f52c5.dir/src.cxx.o -c /Users/xuguodong/lbf/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mp'
+make[1]: *** [CMakeFiles/cmTC_f52c5.dir/src.cxx.o] Error 1
+make: *** [cmTC_f52c5/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
