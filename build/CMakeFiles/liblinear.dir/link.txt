@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libliblinear.a  CMakeFiles/liblinear.dir/3rdparty/liblinear/daxpy.c.o CMakeFiles/liblinear.dir/3rdparty/liblinear/ddot.c.o CMakeFiles/liblinear.dir/3rdparty/liblinear/dnrm2.c.o CMakeFiles/liblinear.dir/3rdparty/liblinear/dscal.c.o CMakeFiles/liblinear.dir/3rdparty/liblinear/linear.cpp.o CMakeFiles/liblinear.dir/3rdparty/liblinear/tron.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libliblinear.a

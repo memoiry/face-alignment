@@ -1,4 +1,0 @@
-/Users/xuguodong/lbf/build/CMakeFiles/rebuild_cache.dir
-/Users/xuguodong/lbf/build/CMakeFiles/edit_cache.dir
-/Users/xuguodong/lbf/build/CMakeFiles/lbf.dir
-/Users/xuguodong/lbf/build/CMakeFiles/liblinear.dir
